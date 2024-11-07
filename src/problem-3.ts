@@ -5,9 +5,6 @@
     const occurences = eachWord.filter((w) => w === lowerCaseWord).length;
     return occurences;
   };
-  const result = countWordOccurrences(
-    "TypeScript is a syntactic superset of Javascript",
-    "Typescript"
-  );
+  const result = countWordOccurrences("I love typescript", "Typescript");
   // console.log(result);
 }
