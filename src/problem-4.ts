@@ -27,7 +27,7 @@
 
   const result1 = calculateShapeArea(circleArea).toFixed(2);
   const result2 = calculateShapeArea(rectangelArea);
-  
+
   // console.log(result1);
   // console.log(result2);
 }
