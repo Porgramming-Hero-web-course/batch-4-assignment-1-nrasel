@@ -9,5 +9,5 @@
     "TypeScript is a syntactic superset of Javascript",
     "Typescript"
   );
-  console.log(result);
+  // console.log(result);
 }
