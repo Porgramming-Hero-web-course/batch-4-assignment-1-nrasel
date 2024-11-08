@@ -1,8 +1,8 @@
 {
-  const getProperty = <T, K extends keyof T>(obj: T, key: K): T[K] => {
-    return obj[key];
+  const getProperty = <T, K extends keyof T>(obj: T, propertyName: K): T[K] => {
+    return obj[propertyName];
   };
-  const person = { name: "Alice", age: 30 };
+  const person = { name: "Alice", age: 40 };
   const result = getProperty(person, "name");
   // console.log(result);
 }
